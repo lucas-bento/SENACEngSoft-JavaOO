@@ -16,9 +16,6 @@ public class TestaControleBonus {
 		controle.setTotalBonus(d1);
 		
 		System.out.println(controle.getTotalBonus());
-		
-		
-		
 	}
 	
 }

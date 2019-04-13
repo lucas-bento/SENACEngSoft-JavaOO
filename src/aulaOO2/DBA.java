@@ -1,6 +1,6 @@
 package aulaOO2;
 
-public class DBA extends Funcionario {
+public class DBA extends Funcionario implements ControleInterno2 {
 	int senha;
 	
 	public double getBonus() {
@@ -15,5 +15,11 @@ public class DBA extends Funcionario {
 			System.out.println("Acesso negado");
 			return false;
 		}
+	}
+
+	@Override
+	public boolean verifica(String senha) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }

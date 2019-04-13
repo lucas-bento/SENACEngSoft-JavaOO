@@ -12,7 +12,7 @@ public class TestaFuncionario {
 		
 		System.out.println(funcionario.salario);
 		
-		funcionario.calculoBonificacao(50);
+//		funcionario.calculoBonificacao(50);
 		
 		System.out.println(funcionario.salario);
 	}

@@ -1,14 +1,12 @@
 package aulaOO2;
 
-public class Funcionario {
+public abstract class Funcionario2 {
 	protected String nome;
 	protected String cpf;
 	protected double salario;
 	protected String status;
 	
-	public double getBonus() {
-		return this.salario * 0.05;
-	}
+	public abstract double getBonus();
 	
 	public String getNome() {
 		return nome;
@@ -41,10 +39,4 @@ public class Funcionario {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-
-	public void verifica() {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
